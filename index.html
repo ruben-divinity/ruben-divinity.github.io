@@ -3,43 +3,48 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="MNDFL exists to enable humans to feel good – NYC meditation studio">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
-<link rel="stylesheet" href="/assets/css/styles.css">
-<script src="https://use.fontawesome.com/30c18e4384.js"></script>
-<title>Home | MNDFL</title>
+
+<head>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+    <link rel="stylesheet" href="/assets/css/styles.css">
+<!--
+    <script src="https://use.fontawesome.com/30c18e4384.js"></script>
+-->
+    <title>Home | MNDFL</title>
 
 
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
 
 
 
 
-<script>
-  function toggleNav() {
-    var hamburger_icon = "☰";
-    var cross_icon = "×";
-    var hamburger = document.querySelector("header .hamburger");
-    var menu = document.querySelector("header .menu");
-    var is_nav_open = hamburger.classList.contains("open");
-    if (!is_nav_open) {
-      hamburger.classList.add("open");
-      menu.classList.remove("hidden-sm");
-      hamburger.innerHTML = cross_icon;
-    } else {
-      hamburger.classList.remove("open");
-      menu.classList.add("hidden-sm");
-      hamburger.innerHTML = hamburger_icon;
-    }
-  }
-</script>
+    <script>
+      function toggleNav() {
+        var hamburger_icon = "☰";
+        var cross_icon = "×";
+        var hamburger = document.querySelector("header .hamburger");
+        var menu = document.querySelector("header .menu");
+        var is_nav_open = hamburger.classList.contains("open");
+        if (!is_nav_open) {
+          hamburger.classList.add("open");
+          menu.classList.remove("hidden-sm");
+          hamburger.innerHTML = cross_icon;
+        } else {
+          hamburger.classList.remove("open");
+          menu.classList.add("hidden-sm");
+          hamburger.innerHTML = hamburger_icon;
+        }
+      }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+</head>
+
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9Q46L"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <div class="container">
     <header class="row">
         <div class="col-xs-12 col-sm-2">
